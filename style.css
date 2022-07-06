@@ -89,10 +89,6 @@ body {
     margin-bottom: 20px;
 }
 
-/*.donate-plan p {
-    text-align: justify;
-}*/
-
 .donation-type {
     margin-top: 50px;
     display: flex;
@@ -151,6 +147,8 @@ body {
     margin-top: 70px;
     margin-left: 115px;
     color: cadetblue;
+    text-decoration: underline;
+    text-decoration-color: coral;
 }
 
 .our-events {
@@ -174,4 +172,34 @@ body {
 .news {
     color: rgb(237, 172, 88);
     text-decoration: none;
+}
+
+.bottom-container {
+    text-align: center;
+    margin: 80px;
+}
+
+.subscribe {
+    border: 2px;
+    border-radius: 5px;
+    background-color: bisque;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.subscribe input {
+    margin-right: -6px;
+    padding: 15px;
+    padding-left: 150px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
