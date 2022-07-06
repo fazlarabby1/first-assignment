@@ -4,27 +4,28 @@ body {
     margin: 0;
 }
 
-.top-container {
+.banner {
     background-image: url(images/top.jpg);
     position: center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: inherit;
     background-size: cover;
+    height: 100vh;
+
 }
 
 .top-section {
     text-align: center;
     font-weight: bold;
     color: white;
-    padding: 150px;
+    padding: 200px;
 }
 
 .top-section h1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .top-section p {
-    font-size: 20px;
     padding-top: 50px;
 }
 
@@ -35,4 +36,94 @@ body {
     border-radius: 5px;
     border-color: rgb(240, 76, 16);
 
+}
+
+.donate-today {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+}
+
+.amount li {
+    list-style: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid gray;
+    border-style: none;
+    text-align: justify;
+    font-weight: 600;
+}
+
+#different-color {
+    color: orangered;
+    border: 2px solid orangered;
+    background-color: pink;
+}
+
+.other-amount input {
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-style: none;
+    border-bottom: 2px solid gray;
+}
+
+.donate-plan {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*.donate-plan p {
+    text-align: justify;
+}*/
+
+.donation-type {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+#food {
+    border: 2px;
+    border-style: none;
+    background-color: rgba(127, 255, 212, 0.337);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+#shelter {
+    border: 2px;
+    border-style: none;
+    background-color: rgba(255, 228, 196, 0.666);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#education {
+    border: 2px;
+    border-style: none;
+    background-color: rgba(0, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 300px;
 }
