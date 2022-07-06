@@ -18,7 +18,7 @@ body {
     text-align: center;
     font-weight: bold;
     color: rgb(255, 0, 153);
-    padding: 150px;
+    padding: 200px;
 }
 
 .top-section h1 {
@@ -27,7 +27,7 @@ body {
 
 .top-section p {
     font-size: 20px;
-    padding-top: 60px;
+    padding-top: 75px;
     color: aqua
 }
 
