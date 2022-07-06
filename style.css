@@ -17,8 +17,8 @@ body {
 .top-section {
     text-align: center;
     font-weight: bold;
-    color: white;
-    padding: 200px;
+    color: rgb(255, 0, 153);
+    padding: 150px;
 }
 
 .top-section h1 {
@@ -26,7 +26,9 @@ body {
 }
 
 .top-section p {
-    padding-top: 50px;
+    font-size: 20px;
+    padding-top: 60px;
+    color: aqua
 }
 
 .button-style {
@@ -121,7 +123,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin-left: 10px;
-    margin-right: 300px;
+    margin-right: 250px;
 }
 
 .depend-on-donation {
