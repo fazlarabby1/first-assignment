@@ -127,3 +127,51 @@ body {
     margin-left: 10px;
     margin-right: 300px;
 }
+
+.depend-on-donation {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 240px;
+    margin-top: 110px;
+}
+
+.description-donation {
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-style: none;
+    text-align: justify;
+}
+
+.depend-on-donation img {
+    height: 370px;
+}
+
+.event h2 {
+    margin-top: 70px;
+    margin-left: 115px;
+    color: cadetblue;
+}
+
+.our-events {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+.event-image-size {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.past-donation-info {
+    border: 2px;
+    margin-right: 350px;
+    text-align: justify;
+}
+
+.news {
+    color: rgb(237, 172, 88);
+    text-decoration: none;
+}
